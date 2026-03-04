@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Fagundes - Resume</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #22d3ee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #1f2937;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #10b981;
+            margin-top: 5px;
+            font-weight: 400;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            color: #6b7280;
+            margin-top: 10px;
+        }
+        .contact-info a {
+            color: #22d3ee;
+            text-decoration: none;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            color: #1f2937;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .job {
+            margin-bottom: 25px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .job-company {
+            font-weight: bold;
+            color: #10b981;
+        }
+        .job-date {
+            font-style: italic;
+            color: #6b7280;
+            font-size: 0.9em;
+        }
+        .job-desc {
+            margin-bottom: 10px;
+            color: #4b5563;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #4b5563;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .project-card {
+            background: #f3f4f6;
+            padding: 15px;
+            border-left: 4px solid #22d3ee;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+        .project-desc {
+            font-size: 0.9em;
+            color: #4b5563;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background: #e5e7eb;
+            color: #374151;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>VINIPX</h1>
+            <h2>Key Quality Engineer & Architect</h2>
+            <div class="contact-info">
+                Engineering robust quality | Elevating developer productivity | Unleashing AI-driven innovation<br><br>
+                <a href="https://github.com/vinipx" target="_blank">github.com/vinipx</a> | 
+                <a href="https://linkedin.com/in/vinipxf" target="_blank">linkedin.com/in/vinipxf</a>
+            </div>
+        </header>
+
+        <section>
+            <h3 class="section-title">Core Expertise</h3>
+            <div class="skills-list">
+                <span class="skill-tag">Test Automation (Java, TypeScript, Python)</span>
+                <span class="skill-tag">Playwright</span>
+                <span class="skill-tag">Appium</span>
+                <span class="skill-tag">WebdriverIO</span>
+                <span class="skill-tag">Spring Boot</span>
+                <span class="skill-tag">Microservices</span>
+                <span class="skill-tag">AI-Driven Workflows</span>
+                <span class="skill-tag">LangChain</span>
+                <span class="skill-tag">DevOps & CI/CD</span>
+                <span class="skill-tag">Financial Testing (FIX, JMS)</span>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Professional Experience</h3>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Key Quality Engineer</span><br>
+                        <span class="job-company">EPAM Systems · Verizon Communications</span>
+                    </div>
+                    <span class="job-date">May 2024 - Present</span>
+                </div>
+                <div class="job-desc">Leading AI-driven quality assurance and test automation for Verizon's 5G Mobile Radio Labs Quintec RF Switch Matrix solution.</div>
+                <ul>
+                    <li>Designed and deployed a 7-agent AI system enhancing feature delivery speed by 70% through intelligent orchestration and automated workflows.</li>
+                    <li>Achieved 100% test coverage for critical modules with 175+ unit tests and AI-driven quality gates (85%+ architecture, 95%+ security compliance).</li>
+                    <li>Product Owner for Device Testing Hub; built Appium/REST Assured frameworks, optimized Gradle build to under 5 minutes across 16 modules.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Team Lead, Key Quality Engineer</span><br>
+                        <span class="job-company">EPAM Systems - UBS AG</span>
+                    </div>
+                    <span class="job-date">May 2018 - Apr 2024</span>
+                </div>
+                <div class="job-desc">Tech Lead for test automation on Wealth Management Private & Corporate, architecting frameworks for distributed microservices.</div>
+                <ul>
+                    <li>Architected TAF for distributed systems with Spring Boot proxy containers, integration tests (JMS, MQ, FIX), and REST Assured API tests.</li>
+                    <li>Set up CI monitoring (GitLab), performance testing (Micrometer, Grafana, Prometheus), and reporting (Allure, ReportPortal).</li>
+                    <li>Kanban Master for backlog refinement; defined code conventions, defect management, and risk assessment practices.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Program Test Lead, Test Engineer SME</span><br>
+                        <span class="job-company">Dell Computadores do Brasil</span>
+                    </div>
+                    <span class="job-date">Nov 2015 - Mar 2018</span>
+                </div>
+                <div class="job-desc">Program Test Lead for Dell Financial Services Leasing across EMEA & APAC, coordinating distributed QA teams under SAFe.</div>
+                <ul>
+                    <li>Coordinated 15+ test leads across EMEA/APAC; drove defect reviews, QA strategy, and program-level reporting for Release Management.</li>
+                    <li>Implemented data-driven E2E testing with NoSQL (MongoDB) and DevOps practices: automated smoke/regression suites via Jenkins.</li>
+                    <li>Participated in SAFe adoption workshops (Austin, Dublin); led CoP forums and team ceremonies for agile process improvement.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Test Analyst Senior</span><br>
+                        <span class="job-company">DBServer</span>
+                    </div>
+                    <span class="job-date">Jan 2014 - Nov 2015</span>
+                </div>
+                <div class="job-desc">Senior test analyst on eBOss Financial Services and SalesForce for Dell's European Leasing systems.</div>
+                <ul>
+                    <li>Agile/Scrum testing for leasing and financial solutions; test planning, scenarios, metrics, and environment maintenance.</li>
+                    <li>Led Defect Review Board meetings, root cause analysis, UAT support, and sprint demos for business stakeholders.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Test Analyst Senior</span><br>
+                        <span class="job-company">Banrisul</span>
+                    </div>
+                    <span class="job-date">Apr 2012 - Jan 2014</span>
+                </div>
+                <div class="job-desc">Senior test analyst and team lead for Banrisul's account and private banking solutions for Brazilian clients.</div>
+                <ul>
+                    <li>Led QA team for financial services; hardware (ATMs) and software testing with compliance and quality targets.</li>
+                    <li>Waterfall project; TestLink, BugZilla; coordinated with 8 QA members and 30+ developers.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Test Analyst</span><br>
+                        <span class="job-company">Stefanini / SICREDI</span>
+                    </div>
+                    <span class="job-date">2006 - 2010</span>
+                </div>
+                <div class="job-desc">Test analyst roles at Stefanini (Dell Services CTI telecom softphone) and SICREDI (internal banking, investments, credit cards).</div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Featured Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-title">WIXY Hub</div>
+                    <div class="project-desc">A WireMock orchestrator with a visual editor and Native AI (MCP) support for intelligent API mocking. (Node.js, React, MCP)</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">TAFLEX Ecosystem</div>
+                    <div class="project-desc">Enterprise-grade test automation frameworks leveraging Java, TypeScript, JavaScript, Playwright, and WebdriverIO.</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">AUTOPOM</div>
+                    <div class="project-desc">An AI-powered developer productivity tool designed for automatically generating Page Object Models (POM). (Python, AST, LangChain)</div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">QUANTAF</div>
+                    <div class="project-desc">A specialized framework tailored for financial testing, including robust support for FIX Protocol and JMS.</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
