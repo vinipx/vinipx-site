@@ -54,7 +54,7 @@ export function Hero() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                 <img
-                  src="/vini.jpg"
+                  src="./vini.jpg"
                   alt="Vinipx Profile"
                   className="relative w-48 h-48 rounded-full object-cover object-center border-4 border-zinc-900"
                 />
@@ -172,7 +172,7 @@ export function Hero() {
                 <ArrowDown className="w-5 h-5" />
               </button>
               <a
-                href="/cv.html"
+                href="./cv.html"
                 download="Vinicius_Fagundes_CV.html"
                 className="px-8 py-4 bg-zinc-800 hover:bg-zinc-700 text-zinc-100 rounded-lg transition-all hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/30 border border-emerald-500/50 flex items-center gap-2"
               >
