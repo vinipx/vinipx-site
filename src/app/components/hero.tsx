@@ -102,9 +102,9 @@ export function Hero() {
               className="mb-12 max-w-3xl mx-auto flex flex-col items-center space-y-4"
             >
               {[
-                { text: "Engineering", accent: "robust quality", gradient: "from-indigo-400 to-cyan-400" },
-                { text: "Elevating", accent: "developer productivity", gradient: "from-purple-400 to-pink-400" },
-                { text: "Unleashing", accent: "AI-driven innovation", gradient: "from-emerald-400 to-cyan-400" },
+                { text: "Engineering", accent: "ROBUST QUALITY", gradient: "from-indigo-400 to-cyan-400" },
+                { text: "Elevating", accent: "DEVELOPER PRODUCTIVITY", gradient: "from-purple-400 to-pink-400" },
+                { text: "Unleashing", accent: "AI-POWERED INNOVATION", gradient: "from-emerald-400 to-cyan-400" },
               ].map((line, i) => (
                 <motion.div
                   key={i}
