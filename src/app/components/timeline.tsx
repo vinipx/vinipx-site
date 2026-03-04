@@ -5,7 +5,7 @@ const timelineEvents = [
   {
     year: "May 2024 - Present",
     title: "Key Quality Engineer",
-    company: "EPAM Systems · Verizon Communications",
+    company: "EPAM Systems (Verizon) - New Jersey, USA",
     type: "career",
     description: "Leading AI-driven quality assurance and test automation for Verizon's 5G Mobile Radio Labs Quintec RF Switch Matrix solution.",
     achievements: [
@@ -17,7 +17,7 @@ const timelineEvents = [
   {
     year: "May 2018 - Apr 2024",
     title: "Team Lead, Key Quality Engineer",
-    company: "EPAM Systems - UBS AG",
+    company: "EPAM Systems (UBS AG) - Krakow, Poland",
     type: "career",
     description: "Tech Lead for test automation on Wealth Management Private & Corporate, architecting frameworks for distributed microservices.",
     achievements: [
@@ -29,7 +29,7 @@ const timelineEvents = [
   {
     year: "Nov 2015 - Mar 2018",
     title: "Program Test Lead, Test Engineer SME",
-    company: "Dell Computadores do Brasil",
+    company: "Dell Computers - Porto Alegre, Brazil",
     type: "career",
     description: "Program Test Lead for Dell Financial Services Leasing across EMEA & APAC, coordinating distributed QA teams under SAFe.",
     achievements: [
@@ -41,7 +41,7 @@ const timelineEvents = [
   {
     year: "Jan 2014 - Nov 2015",
     title: "Test Analyst Senior",
-    company: "DBServer",
+    company: "DBServer - Porto Alegre, Brazil",
     type: "career",
     description: "Senior test analyst on eBOss Financial Services and SalesForce for Dell's European Leasing systems.",
     achievements: [
@@ -53,7 +53,7 @@ const timelineEvents = [
   {
     year: "Apr 2012 - Jan 2014",
     title: "Test Analyst Senior",
-    company: "Banrisul",
+    company: "Banrisul - Porto Alegre, Brazil",
     type: "career",
     description: "Senior test analyst and team lead for Banrisul's account and private banking solutions for Brazilian clients.",
     achievements: [
@@ -65,7 +65,7 @@ const timelineEvents = [
   {
     year: "Sep 2009 - Nov 2010",
     title: "Test Analyst",
-    company: "Stefanini",
+    company: "Stefanini - Porto Alegre, Brazil",
     type: "career",
     description: "Test analyst on Dell Services CTI telecom softphone project with Siebel integration.",
     achievements: [
@@ -77,7 +77,7 @@ const timelineEvents = [
   {
     year: "Aug 2006 - Oct 2008",
     title: "Test Analyst",
-    company: "SICREDI",
+    company: "SICREDI - Porto Alegre, Brazil",
     type: "career",
     description: "Test analyst and team lead for SICREDI's internal bank solutions: accounting, investments, and credit/debit cards.",
     achievements: [
