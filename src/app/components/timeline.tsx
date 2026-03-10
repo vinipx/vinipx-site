@@ -10,7 +10,7 @@ const timelineEvents = [
     description: "Leading AI-driven quality assurance and test automation for Verizon's 5G Mobile Radio Labs Quintec RF Switch Matrix solution.",
     achievements: [
       "Designed and deployed a 7-agent AI system enhancing feature delivery speed by 70% through intelligent orchestration and automated workflows.",
-      "Achieved 100% test coverage for critical modules with +1000 tests (unit/integration/functional(e2e)) and AI-driven quality gates (85%+ architecture, 95%+ security compliance).",
+      "Achieved 100% test coverage for critical modules with +800tests (unit/integration/functional(e2e)) and AI-driven quality gates (85%+ architecture / coverage).",
       "Product Owner for Device Testing Hub; built Appium/REST Assured frameworks, optimized Gradle build to under 5 minutes across 16 modules.",
     ],
   },
