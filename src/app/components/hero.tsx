@@ -56,7 +56,7 @@ export function Hero() {
                 <img
                   src="./vini.jpg"
                   alt="Vinipx Profile"
-                  className="relative w-48 h-48 rounded-full object-cover object-center border-4 border-zinc-900"
+                  className="relative w-40 h-40 rounded-full object-cover object-center border-4 border-zinc-900"
                 />
               </div>
             </motion.div>
@@ -71,9 +71,9 @@ export function Hero() {
               {/* Futuristic glowing backdrop */}
               <div className="absolute -inset-x-8 -inset-y-4 bg-gradient-to-r from-violet-600/10 via-fuchsia-600/10 to-cyan-600/10 blur-3xl rounded-full -z-10 animate-pulse" style={{ animationDuration: '4s' }}></div>
               
-              <h1 className="text-5xl md:text-7xl font-black tracking-[0.2em] md:tracking-[0.4em] uppercase relative">
+              <h1 className="text-5xl md:text-7xl font-black tracking-[0.08em] md:tracking-[0.14em] uppercase relative">
                 <span className="absolute -inset-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 opacity-10 blur-xl animate-pulse rounded-full" style={{ animationDuration: '3s' }}></span>
-                <span className="relative bg-gradient-to-br from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(255,255,255,0.1)] inline-block transition-all duration-700 hover:tracking-[0.5em] hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] cursor-default">
+                <span className="relative bg-gradient-to-br from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(255,255,255,0.1)] inline-block transition-all duration-700 hover:tracking-[0.18em] hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.3)] cursor-default">
                   VINIPX
                 </span>
               </h1>
