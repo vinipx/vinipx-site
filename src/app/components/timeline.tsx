@@ -7,11 +7,11 @@ const timelineEvents = [
     title: "Key Quality Engineer",
     company: "EPAM Systems (Verizon) - New Jersey, USA",
     type: "career",
-    description: "Leading AI-driven quality assurance and test automation for Verizon's 5G Mobile Radio Labs Quintec RF Switch Matrix solution.",
+    description: "Leading AI-driven quality assurance and test automation for Verizon's 5G Mobile Wireless.",
     achievements: [
-      "Designed and deployed a 7-agent AI system enhancing feature delivery speed by 70% through intelligent orchestration and automated workflows.",
-      "Achieved 100% test coverage for critical modules with +800tests (unit/integration/functional(e2e)) and AI-driven quality gates (85%+ architecture / coverage).",
-      "Product Owner for Device Testing Hub; built Appium/REST Assured frameworks, optimized Gradle build to under 5 minutes across 16 modules.",
+      "Designed a 7-agent AI Claude Code system enhancing feature delivery speed by 70% through intelligent orchestration and automated workflows.",
+      "Achieved high test coverage for critical modules with +800tests (unit/integration/functional(e2e)) and android/ios mobile tests via appium ",
+      "Designed and Maintained a Device Testing Hub Lab based on DeviceFarm(openSTF) for Appium tests; built Appium/REST Assured frameworks.",
     ],
   },
   {
