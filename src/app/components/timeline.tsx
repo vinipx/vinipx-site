@@ -10,7 +10,7 @@ const timelineEvents = [
     description: "Leading AI-driven quality assurance and test automation for Verizon's 5G Mobile Wireless.",
     achievements: [
       "Designed a 7-agent AI Claude Code system enhancing feature delivery speed by 70% through intelligent orchestration and automated workflows.",
-      "Achieved high test coverage for critical modules with +800tests (unit/integration/functional(e2e)) and android/ios mobile tests via appium ",
+      "Achieved high test coverage for critical modules with +500 tests (unit/integration/functional(e2e)) and android/ios mobile tests via appium ",
       "Designed and Maintained a Device Testing Hub Lab based on DeviceFarm(openSTF) for Appium tests; built Appium/REST Assured frameworks.",
     ],
   },
