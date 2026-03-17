@@ -256,7 +256,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-zinc-100">New Jersey, USA</p>
-                  <p className="text-sm text-zinc-400">Open to consulting and collaboration</p>
+                  <p className="text-sm text-zinc-400">Open to Collaboration</p>
                 </div>
               </div>
             </div>
