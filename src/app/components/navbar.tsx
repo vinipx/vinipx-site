@@ -1,6 +1,66 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Coffee } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+
+function AnimatedCoffee({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
+      {/* Steam lines */}
+      <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+      <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+      {/* Animated vapor */}
+      <path
+        d="M6 1v3"
+        className="animate-steam-1"
+        style={{ opacity: 0.7 }}
+      />
+      <path
+        d="M10 1v3"
+        className="animate-steam-2"
+        style={{ opacity: 0.7 }}
+      />
+      <path
+        d="M14 1v3"
+        className="animate-steam-3"
+        style={{ opacity: 0.7 }}
+      />
+      <style>{`
+        .animate-steam-1 {
+          animation: steam 1.8s ease-in-out infinite;
+        }
+        .animate-steam-2 {
+          animation: steam 1.8s ease-in-out 0.4s infinite;
+        }
+        .animate-steam-3 {
+          animation: steam 1.8s ease-in-out 0.8s infinite;
+        }
+        @keyframes steam {
+          0% {
+            transform: translateY(0px);
+            opacity: 0.2;
+          }
+          50% {
+            transform: translateY(-3px);
+            opacity: 0.8;
+          }
+          100% {
+            transform: translateY(0px);
+            opacity: 0.2;
+          }
+        }
+      `}</style>
+    </svg>
+  );
+}
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,7 +132,7 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="relative flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wider uppercase text-amber-400 hover:text-amber-300 transition-all duration-300 hover:scale-105 group"
             >
-              <Coffee className="w-4 h-4" />
+              <AnimatedCoffee className="w-4 h-4" />
               <span>Support</span>
               <span className="absolute inset-0 bg-amber-500/10 border border-amber-500/30 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out"></span>
             </a>
@@ -119,7 +179,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-amber-400 hover:text-amber-300 transition-colors py-2 mt-4 pt-4 border-t border-zinc-800"
               >
-                <Coffee className="w-4 h-4" />
+                <AnimatedCoffee className="w-4 h-4" />
                 Buy me a Coffee
               </a>
             </div>
