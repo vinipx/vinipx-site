@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Coffee } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 export function Navbar() {
@@ -65,6 +65,17 @@ export function Navbar() {
                 <span className="absolute -bottom-px left-1/2 -translate-x-1/2 w-0 h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent group-hover:w-3/4 transition-all duration-300 ease-out"></span>
               </button>
             ))}
+            {/* Buy me a Coffee - Desktop */}
+            <a
+              href="https://buymeacoffee.com/vinipx"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wider uppercase text-amber-400 hover:text-amber-300 transition-all duration-300 hover:scale-105 group"
+            >
+              <Coffee className="w-4 h-4" />
+              <span>Support</span>
+              <span className="absolute inset-0 bg-amber-500/10 border border-amber-500/30 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out"></span>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -101,6 +112,16 @@ export function Navbar() {
                   {link.label}
                 </button>
               ))}
+              {/* Buy me a Coffee - Mobile */}
+              <a
+                href="https://buymeacoffee.com/vinipx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-amber-400 hover:text-amber-300 transition-colors py-2 mt-4 pt-4 border-t border-zinc-800"
+              >
+                <Coffee className="w-4 h-4" />
+                Buy me a Coffee
+              </a>
             </div>
           </motion.div>
         )}
