@@ -28,8 +28,8 @@ const projects = [
     badge: "FRAMEWORK",
     technologies: ["JavaScript", "WebdriverIO", "Playwright", "Axios"],
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzI2ODQ3NzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    demoUrl: "https://vinipx.github.io/taflex-js/",
-    repoUrl: "https://github.com/vinipx/taflex-js",
+    demoUrl: "https://vinipx.github.io/taflex-js-modular/",
+    repoUrl: "https://github.com/vinipx/taflex-js-modular",
     color: "yellow",
   },
   {
@@ -38,8 +38,8 @@ const projects = [
     badge: "FRAMEWORK",
     technologies: ["Python", "Playwright", "API Testing", "Appium"],
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2RlJTIwbGFwdG9wfGVufDB8fHx8MTcyNjg0ODUwMHww&ixlib=rb-4.1.0&q=80&w=1080",
-    demoUrl: "https://vinipx.github.io/TAFLEX-PY/",
-    repoUrl: "https://github.com/vinipx/TAFLEX-PY",
+    demoUrl: "https://vinipx.github.io/taflex-python-modular/",
+    repoUrl: "https://github.com/vinipx/taflex-python-modular",
     color: "indigo",
   },
   {
